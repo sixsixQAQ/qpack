@@ -1,25 +1,25 @@
 qpack
-### NAME
-qpack - a tools used to pack Qt project on Linux.
-### SYNOPSIS
+### 名称
+qpack - 一个用于打包linux下QT项目的工具。
+### 概述
 **qpack** \<binary file\> [options] [args]...
-### DESCRIPTION
-Pack the Qt project to whom the binary file(sepcified by you) belongs.
+### 描述
+用于二进制可执行文件(由你指定)所属的项目打包。
 
 - **-o \<output dir\>**
-	Specify the package dir.
-	 The default dir is "__XXX_pack".
+	指定打包输出路径。
+	 默认的文件夹是 "__XXX_pack".
 - **-t**
-	tar the package automatically.
+	用tar压缩归档打包后的文件夹。
 - **-v**
-	Print the version(the last time modified the script).
+	打印版本信息(最后一次修改的时间)。
 - **--help**
-	  Print the help info.
+	 打印帮助信息
 	  
-### WARNINGS
-1. Currently, option -o can only specify output path in current path or its child($PWD or $PWD/*).
-2. The script will overwrite files wihthout warnings. Make sure there are no files needed. 
-### AUTHOR
+### 警告
+1. 目前，-o选项只能制定当前路径下（$PWD）的文件夹。
+2. 脚本会覆盖重名文件夹，请确保没有需要的文件。
+### 作者
 
        Written by QingYang.
 	   
@@ -29,19 +29,17 @@ Pack the Qt project to whom the binary file(sepcified by you) belongs.
        This  is  free  software:  you  are free to change and redistribute it.
        There is NO WARRANTY, to the extent permitted by law.
 	   
-### EXAMPLE
-
-![2022-05-30 10-38-55 的屏幕截图.png](../_resources/2022-05-30 10-38-55 的屏幕截图.png)
-
-
-
-![2022-05-30 10-40-15 的屏幕截图.png](../_resources/2022-05-30 10-40-15 的屏幕截图.png)
+### 示例
+![2022-05-30 10-38-55 的屏幕截图.png](:/1570944497b2415b80ae9a4bf2005f51)
 
 
 
-![2022-05-30 10-41-16 的屏幕截图.png](../_resources/2022-05-30 10-41-16 的屏幕截图.png)
+![2022-05-30 10-40-15 的屏幕截图.png](:/4d5d8723578e471883b7387589f4672f)
 
 
 
-![2022-05-30 10-41-58 的屏幕截图.png](../_resources/2022-05-30 10-41-58 的屏幕截图.png)
+![2022-05-30 10-41-16 的屏幕截图.png](:/ec7fd5d06b8f4fb294b16f9875d8ab41)
 
+
+
+![2022-05-30 10-41-58 的屏幕截图.png](:/e97fd7bffaaa4b6885fe1d0af17c8c7a)
