@@ -139,10 +139,13 @@ done
 printf "${LWHITE}Stage 5: Created executable script.\n"
 #create the run script.
 exec_script=$tardir/"run_$binary.sh"
-echo "#!/bin/bash" > $exec_script
-echo "export LD_LIBRARY_PATH=\$(pwd)"/lib >> $exec_script
-echo "./$binary" >> $exec_script
 
+echo '#!/bin/bash
+export LD_LIBRARY_PATH=$(pwd)/lib
+script_path=$(dirname $0)
+./${script_path}/'"$binary" > $exec_script
+
+chmod u+x $exec_script
 printf "${LBLUE}Created executable script.\n"
 printf "${LYELLOW}Done.\n"
 
