@@ -30,16 +30,7 @@ qpack - 一个用于打包linux下QT项目的工具。
        There is NO WARRANTY, to the extent permitted by law.
 	   
 ### 示例
-![2022-05-30 10-38-55 的屏幕截图.png](:/1570944497b2415b80ae9a4bf2005f51)
-
-
-
-![2022-05-30 10-40-15 的屏幕截图.png](:/4d5d8723578e471883b7387589f4672f)
-
-
-
-![2022-05-30 10-41-16 的屏幕截图.png](:/ec7fd5d06b8f4fb294b16f9875d8ab41)
-
-
-
-![2022-05-30 10-41-58 的屏幕截图.png](:/e97fd7bffaaa4b6885fe1d0af17c8c7a)
+![2022-05-30 10-38-55 的屏幕截图](https://user-images.githubusercontent.com/77574540/170909888-6829bd02-4941-47f3-908a-69a490fbd081.png)
+![2022-05-30 10-40-15 的屏幕截图](https://user-images.githubusercontent.com/77574540/170909944-7cca3ed2-3371-43cd-b7cf-0a55561611ba.png)
+![2022-05-30 10-41-16 的屏幕截图](https://user-images.githubusercontent.com/77574540/170909968-1ed389c7-1450-4687-a669-2209840a706b.png)
+![2022-05-30 10-41-58 的屏幕截图](https://user-images.githubusercontent.com/77574540/170909987-3d0da92a-94c4-4707-b7a0-129ed5b51f37.png)
