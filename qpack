@@ -150,7 +150,9 @@ printf "${LBLUE}Created executable script.\n"
 printf "${LYELLOW}Done.\n"
 
 cd - >> /dev/null
-if [ ! -e $tardir ]#move $tardir to the project dir if not existing
+
+#move $tardir to the project dir if not existing
+if [ ! -e $tardir ]
 then
 	rm -rf $tardir
 	mv $project_dir/$tardir ./ >> /dev/null
