@@ -150,8 +150,11 @@ printf "${LBLUE}Created executable script.\n"
 printf "${LYELLOW}Done.\n"
 
 cd - >> /dev/null
-rm -rf $tardir
-mv $project_dir/$tardir ./ >> /dev/null
+if [ ! -e $tardir ]#move $tardir to the project dir if not existing
+then
+	rm -rf $tardir
+	mv $project_dir/$tardir ./ >> /dev/null
+fi
 #Option -t
 if [ "$FLAG_TAR" == "true" ];
 then
